@@ -1,14 +1,15 @@
-Package: macR
-Title: UCSF MAC-specific functions
+Package: cRayton
+Title: Dataset Generating Helpers
 Version: 0.0.0.9000
 Authors@R: 
-    person("Clayton", "Young", , "clayton.young@ucsf.edu", role = c("aut", "cre"),
+    person("Clayton", "Young", , "jcyoung91@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-3563-425X"))
-Description: What the package does (one paragraph).
+Description: Common tools to join datasets, read files, etc.
 License: `use_mit_license()`
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
+Depends: dplyr, purrr, utils, lubridate, stringr, janitor, progressr, readr
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

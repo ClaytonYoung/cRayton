@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(macR)
+library(cRayton)
 
-test_check("macR")
+test_check("cRayton")

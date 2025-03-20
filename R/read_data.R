@@ -5,7 +5,7 @@ read_data <- function(filename) {
   } else if (tolower(tools::file_ext(filename)) %in% c("xls", "xlsx")) {
     data <- readxl::read_excel(filename)
   } else if (tolower(tools::file_ext(filename)) == "txt") {
-    data <- read.table(filename, header = TRUE)
+    data <- utils::read.table(filename, header = TRUE)
   } else if (tolower(tools::file_ext(filename)) %in% c("rdata", "rds")) {
     data <- readRDS(filename)
   } else {
