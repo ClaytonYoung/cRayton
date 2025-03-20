@@ -5,11 +5,13 @@ Authors@R:
     person("Clayton", "Young", , "jcyoung91@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-3563-425X"))
 Description: Common tools to join datasets, read files, etc.
-License: `use_mit_license()`
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
-Depends: dplyr, purrr, utils, lubridate, stringr, janitor, progressr, readr
+Imports:
+    dplyr, purrr, lubridate, stringr, janitor, progressr,
+    readr, qualtRics, readxl, tidyr
 Suggests: 
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0), tibble
 Config/testthat/edition: 3
