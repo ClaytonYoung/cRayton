@@ -1,4 +1,4 @@
-# cRayton
+# cRayton - name changed from macR 
 
 ## Overview
 **cRayton** is an R package that provides a collection of functions designed to simplify data wrangling and formatting. The package includes utilities for joining data frames based on timepoints, reading multiple file formats, merging and cleaning data, and more. Use cases might be specific to UCSF's Memory and Aging Center. 
